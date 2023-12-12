@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha" />
+
+    <EditText
+        android:id="@+id/edit_text_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora" />
+
+    <EditText
+        android:id="@+id/edit_text_sala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la sala" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alumnos"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_alumnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lista de alumnos separados por comas (ej: Juan, María, Pedro)" />
+
+    <EditText
+        android:id="@+id/edit_text_informacion_extra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Información extra" />
+
+    <Button
+        android:id="@+id/btn_agregar_tutoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Tutoría" />
+
+</LinearLayout>
