@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "cl.inacap.apps.prometeo"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "cl.inacap.apps.prometeo"
@@ -44,4 +44,7 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    implementation("com.squareup.retrofit2:retrofit:2.7.2")
+    implementation("com.squareup.retrofit2:converter-gson:2.4.0")
 }
